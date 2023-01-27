@@ -1,4 +1,4 @@
-import socket
+import time
 import os
 os.system("sudo apt install git")
 os.system("sudo apt install python3")
@@ -30,4 +30,4 @@ print("""⣿⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⣛⣛⣛⣛⣛⣛⣛⣛⡛⠛⠛⠛�
 print()
 print("Fsociety Pinger By ANDR0MD4, Não Kibar, Ok? =P")
 ip = int(input("Digite o Ip Alvo Aqui:"))
-os.system("ping ip")
+os.system("ping "+ ip)
