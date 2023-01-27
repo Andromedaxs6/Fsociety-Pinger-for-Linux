@@ -29,5 +29,5 @@ print("""⣿⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⣛⣛⣛⣛⣛⣛⣛⣛⡛⠛⠛⠛�
         ⠀⠀⢸⣿⠀⠰⣷⡿⠃⠻⣿⡿⠃⠹⣿⡿⣸⡏⣾⣷⡆⢠⣿⠀⠀⣿⠃⠀⠀⠀""")
 print()
 print("Fsociety Pinger By ANDR0MD4, Não Kibar, Ok? =P")
-ip = int(input("Digite o Ip Alvo Aqui:"))
+ip = input("Digite o Ip Alvo Aqui:")
 os.system("ping "+ ip)
